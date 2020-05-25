@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="formats.css">
+</head>
+<body>
+
+<ul class="top_bar">
+	<div class="dropdown">
+		<button class="dropbtn"><a href="home.html" style="text-decoration: inherit";>Home Page</a></button>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn"><a href="outside.html" style="text-decoration: inherit";>Outside</a></button>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Beatty Hall</button>
+		<div class="dropdown-content">
+			<a href="book_store.html">Book Store</a>
+			<a href="fitness_center.html">Fitness Center</a>
+			<a href="cafeteria.html">Cafeteria</a>
+			<a href="library.html">Library</a>
+			<a href="tech_spot.html">Tech Spot</a>
+			<a href="center_for_academic_excellence.html">Center For Academic Excellence</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class="dropbtn">Wentworth Hall</button>
+		<div class="dropdown-content">
+			<a href="career_center.html">Career Center</a>
+			<a href="computer_science_department.html">Computer Science Department</a>
+		</div>
+	</div>
+</ul>
+
+<div style="padding:20px; margin-top:30px; height:200px; text-align:center;">
+<h1>Welcome to Wentworth Institute of Technology's portal!  </h1>
+<h2>Please use the navigation bars at the top...</h2>
+</div>
+
+<center>
+<img src="images/wit.bmp" alt="WIT Logo">
+<p>Welcome to Wentworth Institute of Technology, our school specializes in science, engineering, and design.  </p>
+</center>
+
+<hr></hr>
+
+<center><h3><a href="https://wit.edu">To find out more, come to our school's domain!  </a></h3></center>
+
+<hr></hr>
+
+<input type="text" id="myText" value="">
+
+<p>What is your name?  Please leave your name here.  </p>
+
+<button onclick="myFunction()">Submit</button>
+
+<p>Your name is...  </p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<hr></hr>
+<center><p>Thank you for your time!  </p></center>
+
+</body>
+</html>
